@@ -1,10 +1,6 @@
 //
 // Created by razvan on 24.03.2018.
 //
-
-#ifndef LAB5_6_DYNAMICVECTOR_H
-#define LAB5_6_DYNAMICVECTOR_H
-
 template <class TElement>
 class DynamicVector {
 private:
@@ -129,7 +125,3 @@ template<class TElement>
 TElement DynamicVector<TElement>::getElement(int pos) {
     return this->elems[pos];
 }
-
-
-#endif //LAB5_6_DYNAMICVECTOR_H
-
